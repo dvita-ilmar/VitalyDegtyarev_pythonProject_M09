@@ -14,7 +14,7 @@ if __name__ == '__main__':
     second = 'Рама мыла маму'
 
     res = list(map(lambda x, y: x == y, first, second))
-    print(list(res))
+    print(list(res)) # [False, True, True, True, True, True, True, True, True, True, False, True, True, True]
 
 
 # Замыкание:
