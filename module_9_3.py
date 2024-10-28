@@ -16,5 +16,5 @@ if __name__ == '__main__':
     second_result = (len(first[i]) == len(second[i]) for i in range(len(first)))
 
     # Вывод результатов
-    print(list(first_result))
-    print(list(second_result))
+    print(list(first_result)) # [1, 2]
+    print(list(second_result)) # [False, False, True]
