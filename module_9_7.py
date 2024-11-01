@@ -9,8 +9,8 @@
 def is_prime(func):
 
     # Функция-обёртка
-    def wrapper(x, y, z):
-        n = func(x, y, z) # Вызов основной функции
+    def wrapper(*args,**kwargs):
+        n = func(*args, **kwargs) # Вызов основной функции
 
         # Обёртывание результата основной функции
         try:
